@@ -1,0 +1,10 @@
+[2026-10-07 10:14:01.120] [INFO] ECU Boot sequence initialized. Firmware: v2.4.1-RC3
+[2026-10-07 10:14:01.155] [INFO] CANInterface initialized at 500kbps (ISO 11898-2).
+[2026-10-07 10:14:01.200] [INFO] SensorManager initialized: Coolant=85C, Throttle=25%.
+[2026-10-07 10:14:02.050] [WARN] CAN Busload warning: arbitration load at 78.4%.
+[2026-10-07 10:14:02.500] [ERROR] DTC U0100: Lost Communication with ECM/PCM module.
+[2026-10-07 10:14:02.505] [ERROR] DTC U0100: Retrying transmission on CAN channel 0...
+[2026-10-07 10:14:03.100] [CRITICAL] Sensor acquisition timeout on channel 2. Attempting fail-safe recovery.
+[2026-10-07 10:14:03.105] [ERROR] DTC P0117: Engine Coolant Temperature Sensor 1 Circuit Low.
+[2026-10-07 10:14:04.200] [WARN] Throttle sensor jitter exceeds 5% tolerance window.
+[2026-10-07 10:14:05.000] [ERROR] DTC U0100: Lost Communication with ECM/PCM module.

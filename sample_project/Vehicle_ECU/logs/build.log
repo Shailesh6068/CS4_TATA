@@ -1,0 +1,7 @@
+src/CANInterface.cpp:24:14: warning: conversion from 'void*' to 'uint8_t*' in dynamic allocation [-Wconversion]
+src/CANInterface.cpp:30:26: warning: cast from 'uint8_t*' to 'uint32_t*' increases required alignment of target type [-Wcast-align]
+src/CANInterface.cpp:37:19: warning: expression with side effects in assertion [-Wunused-value]
+src/SensorManager.cpp:27:9: warning: 'strcpy' is deprecated: This function or variable may be unsafe [-Wdeprecated-declarations]
+src/SensorManager.cpp:33:12: error: dereference of possibly-null pointer 'm_unverifiedSensor' [-Werror=null-dereference]
+src/EngineController.cpp:58:12: warning: variable 'uninit_var' may be used uninitialized [-Wmaybe-uninitialized]
+src/EngineController.cpp:63:5: warning: statement will never be executed [-Wunreachable-code]
